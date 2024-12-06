@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+.main{
+    background-image: url(rt2.webp);
+    background-size: cover;
+    background-position: 88% 50%;
+    max-height: 100vh;
+}
+/* edit section */
+.wrapper1{
+   height: 14.5vh;
+   display: flex;
+   justify-content: space-between;
+    /* background-color: rgba(255, 255, 255, 0.164); */
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* border: 2px solid red; */
+}
+.lefu{
+    /* border: 2px solid blue; */
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.rihu{
+    margin-top: 10px;
+    /* border: 2px solid yellow; */
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+
+}
+.hhhh{
+    margin-left: 20px;
+}
+.iim{
+    margin-left: 40px;
+}
+.iim img{
+    width: 70px;
+    border-radius: 50%;
+}
+.rihu li{
+    list-style: none;
+    margin-right: 40px;
+    /* padding: 40px 20px 0px 20px; */
+    /* border: 2px solid black; */
+}
+li a{
+    text-decoration: none;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    /* background-color: rgb(255, 255, 255); */
+  /* font-weight: 600; */
+  /* color: aliceblue; */
+  position: relative;
+  color: rgb(0, 0, 0);
+  /* padding: 1px 0px 5px 0px; */
+  transition: all ease 0.25s;
+  border: 2px solid rgb(255, 255, 255);
+}
+li a:hover{
+      background-color: rgba(255, 255, 255, 0.164);
+      /* border: 2px solid rgb(255, 255, 255, 0.164); */
+    /* font-size: 15.3px; */
+}
+li a ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2.5px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
+    font-weight: 600;
+}
+/* edit section */
+.wrapper2{
+    height: 82.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper2 h1{
+    padding:0px 0px 10px 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.wrapper2 p{
+    font-size: 20px;
+}
+p{
+    padding: 0px 0px 30px 0px;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.btn1{
+    padding: 0px 0px 30px 0px;
+}
+button a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+button a img{
+    margin: -6.5px;
+    height: 25px;
+    width: 25px;
+    padding-left: 4px;
+    transition: all ease 0.2s;
+
+}
+button a img:hover{
+    padding-left: 12px;
+}
+button{
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    transition: all ease 0.2s;
+    font-weight: 700;
+}
+button:hover{
+    box-shadow: 3px 3px 0px black;
+    font-size: 16.6px;
+}
+.pl{
+    color: #ff9b05;
+    font-family: cursive;
+}
+.trademark{
+    height: 3vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.trademark a{
+    font-size: 10px;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+    color: rgba(255, 255, 255, 0.678);
+}
+/* @media screen and (max-width: 447px) {
+    li{
+        padding: 40px 12.5px 0px 12.5px;
+    }
+} */
+
+
+

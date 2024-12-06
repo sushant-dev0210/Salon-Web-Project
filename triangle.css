@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+.wh00{
+    background-image: url(m50recut.webp);
+    background-size: cover;
+    background-position: center bottom;
+}
+.nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 4.8vw;
+}
+.icon{
+    padding: 0px 5px 0px 5px;
+    padding-top: 4px;
+    align-content: center;
+    border-radius: 10px;
+    transition: all ease 0.1s;
+}
+.icon:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.tr{
+    align-content: center;
+    padding: 0px 5px 0px 5px;
+}
+.tr li{
+    list-style: none;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 5px;
+    width: 90vw;
+    margin-bottom: 10vh;
+    margin-top: 2px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+}
+.cont p{
+    text-align: center;
+}
+.cont span{
+    color: #ff9b05;
+}
+.line3{
+    padding-bottom: 20px;
+}
+.yborder{
+    display: flex;
+    justify-content: center;
+}
+.rborder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.up{
+    display: flex;
+}
+.down{
+    display: flex;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.505);
+    height: 150px;
+    width: 150px;
+    margin: 38px 38px 5px 38px;
+}
+.p1{
+    background-image: url(/1ahrgrp/1t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p2{
+    background-image: url(/1ahrgrp/2t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p3{
+    background-image: url(/1ahrgrp/3t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p4{
+    background-image: url(/1ahrgrp/4t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p5{
+    background-image: url(/1ahrgrp/5t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p6{
+    background-image: url(/1ahrgrp/6t.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.p7{
+    background-image: url(/1ahrgrp/7t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p8{
+    background-image: url(/1ahrgrp/8t.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.p9{
+    background-image: url(/1ahrgrp/9t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p10{
+    background-image: url(/1ahrgrp/10t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p11{
+    background-image: url(/1ahrgrp/11t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p12{
+    background-image: url(/1ahrgrp/12t.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width:1002px){
+    .box{
+        margin: 20px 20px 5px 20px;
+    }
+}
+@media screen and (max-width:875px){
+    .yborder{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:445px){
+    .box{
+        height: 130px;
+        width: 130px;
+        margin: 20px 15.5px 5px 15.5px;
+    }
+    .txt{
+        width: 130px;
+    }
+}
+@media screen and (max-width:325px){
+    .box{
+        height: 100px;
+        width: 100px;
+        margin: 15px 10px 5px 10px;
+    }
+    .txt{
+        width: 100px;
+    }
+    .cont{
+        padding: 20px 10px 0px 10px;
+    }
+}
+@media screen and (max-width:305px){
+    .box{
+        margin: 13px 6px 3px 6px;
+    }
+}
+            /* ooooooooooooooooooo */
+            
